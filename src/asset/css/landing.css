@@ -1,0 +1,63 @@
+   body {
+            background: url('../img/download.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            padding: 2rem;
+        }
+
+        .link-card {
+            background-color: #fff;
+            border: 2px solid #000;
+            border-radius: 8px;
+            box-shadow: 4px 4px 0 #000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 0.75rem;
+            margin-bottom: 1rem;
+            text-decoration: none;
+            color: #000;
+            max-width: 400px;
+        }
+
+        .link-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .left-section {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .left-section .highlight {
+            margin: 0 auto;
+        }
+
+
+        .link-icon {
+            width: 24px;
+            margin-right: 8px;
+        }
+
+        .highlight {
+            background-color: #f8d568;
+            /* Kuning highlight */
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .menu-icon {
+            font-size: 1.25rem;
+            color: #000;
+        }
+
+        .header {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .header img {
+            width: 80px;
+            margin-bottom: 0.5rem;
+        }
